@@ -61,3 +61,152 @@ form h1{
     padding: 20px;
 }
 
+form label{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button_login label{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 15px;
+}
+
+.text_box_container{
+    display: block;
+    height: 100px;
+    width: 265px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-10px);
+}
+
+i{
+    opacity: 0.4;
+    position: relative;
+    margin-left: 2px;
+    top: 10px;
+}
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+
+.inputbox input{
+    width: 100%;
+    margin-left: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: gray;
+}
+
+.forgot_password_field{
+    display: block;
+    height: 40px;
+    width: 265px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.forgot_password_field label{
+    font-size: 11px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: gray;
+}
+
+.button_login{
+    display: block;
+    height: 40px;
+    width: 265px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 50px;
+    background: linear-gradient(to left, rgb(255, 0, 149),rgb(22, 199, 253));
+}
+
+.social_network_signup{
+    border: 1px solid red;
+    display: block;
+    height: 70px;
+    width: 150px;
+    position:relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 40px;
+}
+
+.sns_label{
+    width: 100%;
+    height: 40%;
+}
+
+.sns_buttons{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
+
+.sns_buttons i{
+    opacity: 1;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.sns_buttons i:nth-child(1){
+    color: #3b5998;
+}
+
+.sns_label label{
+    font-size: 11px;
+    position: absolute;
+    left: 20%;
+    color: gray;
+}
+
+.signButton_Section{
+    height: 70px;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 110px;
+}
+
+.s_button{
+    height: 60%;
+}
+
+.s_button label{
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
