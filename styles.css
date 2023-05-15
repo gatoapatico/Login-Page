@@ -57,7 +57,6 @@ body{
 form h1{
     font-family: 'Konkhmer Sleokchher', cursive;
     text-align: center;
-    /*border: 1px solid black;*/
     padding: 20px;
 }
 
@@ -151,7 +150,6 @@ input:valid ~ label{
 }
 
 .social_network_signup{
-    border: 1px solid red;
     display: block;
     height: 70px;
     width: 150px;
@@ -169,19 +167,38 @@ input:valid ~ label{
 .sns_buttons{
     display: flex;
     position: absolute;
+    bottom: 5px;
+    gap: 5px;
     left: 10px;
-    bottom: 15px;
+}
+
+.icon_content{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_content:nth-child(1){
+    background-color: #3b5998;
+    color: white;
+}
+
+.icon_content:nth-child(2){
+    background-color: #00acee;
+    color: white;
+}
+
+.icon_content:nth-child(3){
+    background-color: #db4a39;
+    color: white;
 }
 
 .sns_buttons i{
     opacity: 1;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 50px;
-}
-
-.sns_buttons i:nth-child(1){
-    color: #3b5998;
+    left: -1px;
+    top: 11px;
 }
 
 .sns_label label{
