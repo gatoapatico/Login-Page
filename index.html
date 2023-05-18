@@ -5,6 +5,7 @@
         <meta name="description" content="Login Page">
         <title>Login Page</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
         
         <!--FUENTE DE TEXTO-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,19 +28,19 @@
                 <div class="text_box_container">
                     <div class="inputbox">
                         <i class="fa-regular fa-user"></i>
-                        <input type="text" required>
+                        <input type="text" id="username" required>
                         <label for="">Username</label>
                     </div>
                     <div class="inputbox">
                         <i class="fa-solid fa-unlock-keyhole"></i>
-                        <input type="password" required>
+                        <input type="password" id="password" required>
                         <label for="">Password</label>
                     </div>
                 </div>
                 <div class="forgot_password_field">
                     <label for="">Forgot password?</label>
                 </div>
-                <div class="button_login" onclick="alert('El LOGIN!')">
+                <div class="button_login" onclick="validarLogin()">
                     <label for="">LOGIN</label>
                 </div>
                 <div class="social_network_signup">
